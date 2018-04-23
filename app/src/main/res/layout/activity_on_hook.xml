@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vadi.phonecall.OnHookActivity"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+   <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="refresh"
+        android:id="@+id/refresh"/>-->
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="record"
+            android:id="@+id/record"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="stop"
+            android:id="@+id/stop"/>
+    </LinearLayout>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="23dp"
+           android:layout_weight="2">
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:weightSum="12"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:id="@+id/msg"/>
+
+
+            <!--<Image
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+
+                />-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="5"
+                android:src="@drawable/image"
+                android:id="@+id/imagebutton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="5"
+                android:text="send"
+                android:textSize="12dp"
+                android:id="@+id/send"
+              android:background="@drawable/button2"
+                android:textColor="#fff"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+		INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:4:5-63
+application
+ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:6:5-13:19
+provider#com.klinker.android.send_message.MmsFileProvider
+ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:8:9-12:46
+	android:grantUriPermissions
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:11:19-53
+	android:enabled
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:10:19-41
+	android:authorities
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:9:19-73
+	android:exported
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:12:19-43
+	android:name
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml:8:19-50
+uses-sdk
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+		INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+		ADDED from D:\CallAndSMS\library\src\main\AndroidManifest.xml
+		INJECTED from D:\CallAndSMS\library\src\main\AndroidManifest.xml

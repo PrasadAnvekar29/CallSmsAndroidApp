@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vadi.phonecall.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="5">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center"
+            android:text="PhoneCall"
+            android:textColor="#fff"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />-->
+
+    <!--android:layout_height="?attr/actionBarSize"android:layout_height="?attr/actionBarSize"-->
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evon"
+        android:textSize="15dp"
+        android:textStyle="bold"/>-->
+
+    <!--<android.support.v7.widget.Toolbar/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:padding="30dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="2">
+
+    <AutoCompleteTextView
+        android:id="@+id/toNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:ems="12"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000" />
+
+    <!---->
+    <EditText
+        android:id="@+id/et_phone_no"
+        android:hint="Enter Phone number"
+        android:inputType="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:layout_marginTop="20dp"
+        android:maxLength="10"/>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recordlist"
+            android:id="@+id/recordlist"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/answer_call"
+        android:layout_gravity="center_horizontal"
+        android:text="Answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>-->
+
+</LinearLayout>
